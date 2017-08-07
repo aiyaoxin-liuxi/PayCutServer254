@@ -1,0 +1,607 @@
+/* CSS Document */
+table{
+	font-size:12px;
+	}
+Body{
+	min-width:700px;
+	height:100%;
+	margin:0px auto;
+	padding:0px;
+	text-align:center;
+	background-image:url(../Images/BodyBG.gif);
+	font-size:12px;
+	scrollbar-face-color: #D1DCE8;
+	scrollbar-shadow-color: #A4B2C6;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #A4B2C6;
+	scrollbar-darkshadow-color: #EDF9F7;
+	scrollbar-track-color: #DFEBE9;
+	scrollbar-arrow-color: #91A4A2;
+	}
+.clear{
+	height:0px;
+	line-height:0px;
+	font-size:0px;
+	clear:both;
+	}
+.Body_Container{
+	width:96%;
+	height:100%;
+	margin:0px auto;
+	text-align:center;
+	background-color:#FFFFFF;
+	}
+.ContainerCMP{
+	margin:0px 4px;
+	height:100%;
+	background-color:#FFFFFF;
+	}
+.TopCMP{
+	width:100%;
+	height:112px;
+	float:none;
+	}
+.TopCMP_Tool{
+	width:100%;
+	height:73px;
+	background-image:url(../Images/TopCMP_ToolBG.gif);
+	background-repeat:repeat-x;
+	}
+.TopCMP_CMP_Customer_Logo{
+	width:226px;
+	height:73px;
+	line-height:73px;
+	font-size:24px;
+	font-family:"黑体","宋体";
+	font-weight:bolder;
+	white-space:nowrap;
+	float:left;
+	}
+.TopCMP_CMP_Customer_Logo img{
+	width:196px;
+	height:45px;
+	margin:11px 15px 17px 15px;
+	float:left;
+	}
+.TopCMP_CMP_Logo{
+	width:356px;
+	height:73px;
+	background-image:url(../Images/yongyou_LOGO.png);
+	background-repeat:no-repeat;
+	float:left;
+	}
+.TopCMP_ToolUnderLine{
+	width:100%;
+	height:6px;
+	background-image:url(../Images/TopCMP_ToolUnderLine.gif);
+	background-repeat:repeat-x;
+	line-height:0px;
+	font-size:0px;
+	}
+.TopCMP_ToolUnderLine_left{
+	width:150px;
+	height:6px;
+	background-image:url(../Images/TopCMP_ToolUnderLine_left.gif);
+	background-repeat:no-repeat;
+	font-size:0px;
+	float:left;
+	}
+.TopCMP_ToolUnderLine_right{
+	width:500px;
+	height:6px;
+	background-image:url(../Images/TopCMP_ToolUnderLine_right.gif);
+	background-repeat:no-repeat;
+	font-size:0px;
+	float:right;
+	}
+.TopCMP_FirstMenu{
+	width:100%;
+	height:33px;
+	background-image:url(../Images/TopCMP_FirstMenu.gif);
+	background-repeat:repeat-x;
+	}
+.TopCMP_FirstMenu img{
+	width:2px;
+	height:33px;
+	margin:0px 6px;
+	background-image:url(../Images/TopCMP_FirMenuBG_CenterLine.gif);
+	vertical-align:middle;
+	}
+.TopCMP_FirstMenu_left{
+	width:5px;
+	height:33px;
+	background-image:url(../Images/TopCMP_FirstMenu_left.gif);
+	background-repeat:repeat-x;
+	float:left;
+	}
+.TopCMP_FirstMenu_welcomeFont{
+	height:33px;
+	line-height:33px;
+	padding-left:26px;
+	color:#FFFFFF;
+	background-image:url(../Images/TopCMP_FirstMenu_welFont.gif);
+	background-repeat:no-repeat;
+	float:left;
+	}
+.TopCMP_FirstMenu_sysMenu{
+	height:33px;
+	padding-right:7px;
+	line-height:33px;
+	float:right;
+	}
+.TopCMP_FirstMenu_sysMenu ul{
+	margin:0px;
+	padding:0px;
+	}
+.TopCMP_FirstMenu_sysMenu ul li{
+	padding-left:27px;
+	padding-right:5px;
+	list-style:none;
+	color:#FFFFFF;
+	float:left;
+	cursor:pointer;
+	}
+.TopCMP_FirstMenu_sysMenu ul li:hover{
+	padding-left:27px;
+	padding-right:5px;
+	list-style:none;
+	color:#FFF799;
+	float:left;
+	cursor:pointer;
+	}
+.TopCMP_FirstMenu_sysMenu ul li span{
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF799;
+	}
+.TopCMP_FirstMenu_sysMsg{
+	background-image:url(../Images/TopCMP_FirstMenu_sysMsg.gif);
+	background-repeat:no-repeat;
+	}
+.TopCMP_FirstMenu_sysSet{
+	background-image:url(../Images/TopCMP_FirstMenu_sysSet.gif);
+	background-repeat:no-repeat;
+	}
+.TopCMP_FirstMenu_sysMap{
+	background-image:url(../Images/TopCMP_FirstMenu_sysMap.gif);
+	background-repeat:no-repeat;
+	}
+.TopCMP_FirstMenu_sysExit{
+	background-image:url(../Images/TopCMP_FirstMenu_sysExit.gif);
+	background-repeat:no-repeat;
+	}
+.TopCMP_FirstMenu_right{
+	width:5px;
+	height:33px;
+	background-image:url(../Images/TopCMP_FirstMenu_right.gif);
+	background-repeat:repeat-x;
+	float:right;
+	}
+.MainCMP{
+	width:100%;
+	}
+.MainCMP_Left{
+	width:209px;
+	vertical-align:top;
+	background-image:url(../Images/MainCMP_Left_BG.gif);
+	background-repeat:repeat-y;
+	}
+.MainCMP_Left_LogoBG{
+	height:56px;
+	background-image:url(../Images/MainCMP_Left_LogoBG.gif);
+	background-repeat:no-repeat;
+	}
+.MainCMP_Left_LogoBG img{
+	width:170px;
+	height:45px;
+	padding:7px 19px 4px 20px;
+	}
+.TopCMP_FirstMenu_TittleBG{
+	width:209px;
+	height:35px;
+	margin:0 auto;
+	text-align:center;
+	background-image:url(../Images/TopCMP_FirstMenu_TittleBG.gif);
+	background-repeat:no-repeat;
+	}
+.leftMenu_height_hack{
+	*height:0px;
+	}
+.TopCMP_SecMenuBG{
+	margin:0px;
+	padding:0px;
+	}
+.TopCMP_SecMenuBG ul{
+	margin:0px;
+	padding:0px;
+	}
+.TopCMP_SecMenuBG_li1{
+	height:28px;
+	line-height:28px;
+	list-style:none;
+	color:#034C81;
+	/* commented by lzh @20140629 改变风格 */
+	/* background-image:url(../Images/TopCMP_SecMenuBG.gif); */
+	/* add by lzh @ 20140629 */
+	border-bottom:1px dashed gray;
+	/* background-repeat:no-repeat;*/
+	cursor:pointer;
+	}
+.TopCMP_SecMenuBG_li1_red{
+	height:28px;
+	line-height:28px;
+	list-style:none;
+	color:#034C81;
+	background-color:#FFF;
+	/* commented by lzh @20140629 改变风格 */
+	/* background-image:url(../Images/TopCMP_SecMenuBG_red.gif); */
+	/* add by lzh @ 20140629 */
+	border-bottom:1px dashed gray;
+	background-color:#ABD4F1;
+	
+	/* background-repeat:no-repeat; */
+	cursor:pointer;
+	}		
+.TopCMP_SecMenuBG ul li ul{
+	margin:0px;
+	padding:0px;
+	}
+.TopCMP_SecMenuBG_li2{
+	height:26px;
+	line-height:26px;
+	list-style:none;
+	color:#034C81;
+	background-color:#EEE;
+	cursor:pointer;
+	}	
+.TopCMP_SecMenuBG_li2_red{
+	height:26px;
+	line-height:26px;
+	list-style:none;
+	color:#034C81;
+	background-image:url(../Images/TopCMP_FirMenuBG_red.gif);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	}	
+
+.TopCMP_SecMenuBG ul li ul li ul{
+	margin:0px;
+	padding:0px;
+	}
+.TopCMP_SecMenuBG_li3{
+	height:26px;
+	line-height:26px;
+	list-style:none;
+	margin:0px;
+	color:#034C81;
+	background-image:url(../Images/TopCMP_FourMenuBG.gif);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	}
+.TopCMP_SecMenuBG_li3_red{
+	height:26px;
+	line-height:26px;
+	list-style:none;
+	margin:0px;
+	color:#034C81;
+	background-image:url(../Images/TopCMP_FourMenuBG_red.gif);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	}
+.TopCMP_QuickMenuBG{
+	margin:0px;
+	padding:0px;
+	}
+.TopCMP_QuickMenuBG ul{
+	margin:0px;
+	padding:0px;
+	}
+.TopCMP_QuickMenuBG_li{
+	height:26px;
+	line-height:26px;
+	list-style:none;
+	padding-left:20px;
+	text-align:left;
+	margin:0px;
+	color:#034C81;
+	background-image:url(../Images/TopCMP_FourMenuBG.gif);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	}	
+.TopCMP_QuickMenuBG_li_red{
+	height:26px;
+	line-height:26px;
+	list-style:none;
+	padding-left:20px;
+	text-align:left;
+	margin:0px;
+	color:#034C81;
+	background-image:url(../Images/TopCMP_FourMenuBG_red.gif);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	}		
+.MainCMP_CenterLine{
+	width:7px;
+	border-right:1px solid #C5CED7;
+	/*border-left:1px solid #B8ABA0;*/
+	font-size:0px;
+	line-height:0px;
+	background-color:#E8EBF0;
+	cursor:pointer;
+	}
+.MainCMP_CenterLineMin{
+	width:7px;
+	border-left:1px solid #D6CEC7;
+	border-right:1px solid #D6CEC7;
+	font-size:0px;
+	line-height:0px;
+	background-color:#EFEAE6;
+	cursor:pointer;
+	}
+.MainCMP_CenterLine_L2R{
+	width:7px;
+	height:75px;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	background-image:url(../Images/scrollLine_left2right.gif);
+	background-repeat:no-repeat;
+	}
+.MainCMP_CenterLine_R2L{
+	width:7px;
+	height:75px;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	background-image:url(../Images/scrollLine_right2left.gif);
+	background-repeat:no-repeat;
+	}
+.MainCMP_Right{
+	width:100%;
+	background-color:#FFFFFF;
+	text-align:left;
+	vertical-align:top;
+	}
+.BottomCMP_BG{
+	height:57px;
+	background-image:url(../Images/BottomCMP_BG.gif);
+	background-repeat:repeat-x;
+	}
+.BottomCMP_left{
+	width:39px;
+	height:57px;
+	background-image:url(../Images/BottomCMP_left.gif);
+	background-repeat:no-repeat;
+	float:left;
+	}
+.BottomCMP_right{
+	width:39px;
+	height:57px;
+	background-image:url(../Images/BottomCMP_right.gif);
+	background-repeat:no-repeat;
+	float:right;
+	}
+.MainCMP_Right_Tab_TittleBG{
+	width:100%;
+	height:34px;
+	line-height:34px;
+	background-image:url(../Images/MainCMP_Right_Tab_TittleBG.gif);
+	background-repeat:repeat-x;
+	float:left;
+	}
+.MainCMP_Right_Tab_TRight{
+	width:8px;
+	height:34px;
+	background-image:url(../Images/MainCMP_Right_Tab_TRight.gif);
+	background-repeat:no-repeat;
+	float:right;
+	}
+.MainCMP_Right_Tab_Menu{
+	
+	}
+.MainCMP_Right_Tab_Menu ul{
+	margin:0px;
+	padding:0px;	
+	}
+.MainCMP_Right_Tab_Menu ul li{
+	list-style:none;
+	margin:0px 0px 0px 5px;
+	padding:0px 9px 0px 0px;
+	float:left;	
+	}
+.MainCMP_Right_Tab_Menu ul li:hover{
+	list-style:none;
+	margin:0px 0px 0px 5px;
+	padding:0px 9px 0px 0px;
+	color:#585858;
+	float:left;	
+	}
+.MainCMP_Right_Tab_OnLeft{
+	width:30px;
+	height:34px;
+	line-height:34px;
+	background-image:url(../Images/MainCMP_Right_Tab_OnLeft.gif);
+	background-repeat:no-repeat;
+	float:left;
+	}
+.MainCMP_Right_Tab_OnRight{
+	height:34px;
+	line-height:34px;
+	background-image:url(../Images/MainCMP_Right_Tab_OnRight.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	color:#585858;
+	float:left;
+	cursor:pointer;
+	}
+.MainCMP_Right_Tab_OutLeft{
+	width:10px;
+	height:34px;
+	line-height:34px;
+	background-image:url(../Images/MainCMP_Right_Tab_OutLeft.gif);
+	background-repeat:no-repeat;
+	float:left;
+	}
+.MainCMP_Right_Tab_OutRight{
+	height:34px;
+	line-height:34px;
+	background-image:url(../Images/MainCMP_Right_Tab_OutRight.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	color:#034C81;
+	float:left;
+	cursor:pointer;
+	}
+.TopCMP_FirstMenu_TittleIcon{
+	width:110px;
+	height:35px;
+	margin:0 auto;
+	line-height:35px;
+	text-align:center;
+	background-image:url(../Images/TopCMP_FirstMenu_TittleIcon.gif);
+	background-repeat:no-repeat;
+	color:#024D86;
+	font-weight:bold;
+	}
+.left_menu_more{
+	padding-left:40px;
+	background:url(../Images/left_menu_more.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	}
+.left_menu_less{
+	padding-left:40px;
+	background:url(../Images/left_menu_less.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	}
+.left_menu_more2{
+	padding-left:55px;
+	background:url(../Images/left_menu_more2.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	}
+.left_menu_less2{
+	padding-left:55px;
+	background:url(../Images/left_menu_less2.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	}
+.left_menu_less2_2{
+	padding-left:55px;
+	background:url(../Images/left_menu_less2_2.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	}
+.left_menu_less3{
+	padding-left:70px;
+	background:url(../Images/left_menu_less3.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	}
+.left_menu_more3{
+	padding-left:70px;
+	background:url(../Images/left_menu_more3.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	}
+.left_menu_less4{
+	padding-left:22px;
+	background:url(../Images/left_menu_less3.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	}
+.left_menu_more4{
+	padding-left:22px;
+	background:url(../Images/left_menu_more3.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	}
+/*-------------------Login-------------------*/
+.LoginCMP_container{ 
+width:975px; 
+position:absolute; 
+top:50%; 
+left:50%; 
+margin:-225px 0px 0px -467px;
+padding: 0;
+overflow: hidden;
+} 
+
+.LoginCMP_BodyLogo{
+	width:856px;
+	height:147px;
+	background-image:url(../Images/yongyou2_01.png);
+}
+.LoginCMP_BodyInput_left{
+	width:311px;
+	height:300px;
+	float:left;
+	background-image:url(../Images/yongyou2_02.jpg);
+	}
+.LoginCMP_BodyInput_Pic{
+	width:545px;
+	height:300px;
+	background-image:url(../Images/yongyou2_03.jpg);
+	float:left;
+	}
+.LoginCMP_BodyInput_Input{
+	width:856px;
+	height:75px;
+	background-image:url(../Images/yongyou2_04.png);
+	float:left;
+	}
+.LoginCMP_BodyInput_Text{
+	width:140px;
+	height:100px;
+	line-height:35px;
+	padding-top:150px;
+	margin-left:40px;
+	font-weight:bold;
+	text-align:right;
+	color:#000000;
+	float:left;
+}
+.LoginCMP_BodyInput_InputText{
+	width:182px;
+	height:103px;
+	padding-top:150px;
+	padding-left:5px;
+	float:left;
+}
+.LoginCMP_BodyInput_InputText input{
+	height:20px;
+	margin:5px;
+	border:1px solid #3699CC;
+	color:#00418E;
+	float:left;
+}
+.LoginCMP_BodyInput_button{
+	margin-left:500px;
+	width:66px;
+	height:127px;
+	line-height:127px;
+	float:left;
+	}
+/* .LoginCMP_BodyInput_right{
+	width:59px;
+	height:127px;
+	float:left;
+	background-image:url(../Images/loginCMP_09.png);
+	} */
+/* .LoginCMP_BodyBotton{
+	margin-top:-3px;  IE6 下有3px间隙
+	clear:both;
+	width: 975px;
+	height:120px;
+	background-image:url(../Images/loginCMP_10.png);
+	} */
+.LoginCMP_Copyright{
+	padding-top:650px;
+	width:975px;
+	height:31px;
+	line-height:31px;
+	text-align:center;
+	margin:0 auto;
+	color:#00418E;
+	}	

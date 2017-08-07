@@ -1,0 +1,322 @@
+body {
+	scrollbar-face-color: #E2E9F1;
+	scrollbar-shadow-color: #A4B2C6;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #A4B2C6;
+	scrollbar-darkshadow-color: #EDF9F7;
+	scrollbar-track-color: #DFEBE9;
+	scrollbar-arrow-color: #91A4A2;
+	font-family: "宋体", "Arial", "Times New Roman";
+	font-size: 9pt;
+	line-height: normal;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	overflow: auto;
+}
+
+TABLE {
+	FONT-SIZE: 12px;
+	font-family: "宋体", "System";
+	clip: rect(); `
+	border-collapse: collapse;
+}
+
+A:link {
+	COLOR: #034C81;
+	FONT-SIZE: 12px;
+	TEXT-DECORATION: none;
+	font-family: "宋体", "System"
+}
+
+A:visited {
+	COLOR: #034C81;
+	FONT-SIZE: 12px;
+	TEXT-DECORATION: none;
+	font-family: "宋体", "System"
+}
+
+A:hover {
+	COLOR: #F7941C;
+	TEXT-DECORATION: none;
+	font-family: "宋体", "System";
+	font-size: 12px
+}
+
+A:active {
+	COLOR: #034C81;
+	TEXT-DECORATION: none;
+	font-family: "宋体", "System";
+	font-size: 12px
+}
+
+A.main:link {
+	COLOR: #034C81;
+	FONT-SIZE: 12px;
+	TEXT-DECORATION: none;
+	font-family: "宋体", "System"
+}
+
+A.main:visited {
+	COLOR: #034C81;
+	FONT-SIZE: 12px;
+	TEXT-DECORATION: none;
+	font-family: "宋体", "System"
+}
+
+A.main:hover {
+	COLOR: #F7941C;
+	TEXT-DECORATION: none;
+	font-family: "宋体", "System";
+	font-size: 12px
+}
+
+A.main:active {
+	COLOR: #034C81;
+	TEXT-DECORATION: none;
+	font-family: "宋体", "System";
+	font-size: 12px
+}
+
+.text {
+	BACKGROUND-COLOR: #ffffff;
+	FONT-SIZE: 12px;
+	height: 14px;
+	border-style: inset;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px
+}
+
+
+
+.search {
+	BACKGROUND-COLOR: #c8c8c8;
+	FONT-SIZE: 12px;
+	height: 18px;
+	border: 1px inset
+}
+
+.textarea {
+	font-size: 12px;
+	border: 1px inset;
+	background-color: #ffffff
+}
+
+.bg {
+	background-attachment: fixed;
+	background-image: url(../Images/Center.jpg);
+	background-repeat: no-repeat;
+	background-position: center right
+}
+
+.select {
+	height: 12px;
+	font-size: 12px;
+	border-style: outset;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px
+}
+
+.Formselect {
+	background-color: #F5F5F5;
+	height: 12px;
+	font-size: 12px;
+	border-style: inset;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px
+}
+
+.Line_b {
+	border: #000000;
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px
+}
+
+.Line_A {
+	border-color: #000000 #000000 #000000 black;
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px
+}
+
+.Txt_bottom {
+	clip: rect(1px);
+	filter: Shadow(Color = #B0B0B0, Direction = 45);
+}
+
+.Txt {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 40px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFD862;
+	text-decoration: none
+}
+
+.Line_T {
+	border: #000000;
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px
+}
+
+.Table_H {
+	font-family: "宋体", "Arial";
+	font-size: 12px;
+	color: #3C3A3B;
+	background-color: #F1F5F8;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.Table_H td {
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.Table_N {
+	font-family: "宋体", "Arial";
+	font-size: 12px;
+	color: #3C3A3B;
+	background-color: #FFFFFF;
+	height: 20px;
+	border-top: 1px solid #B5CADD;
+	border-left: 1px solid #B5CADD;
+	border-right: 0px;
+	border-bottom: 0px;
+	/*BORDER-COLLAPSE:COLLAPSE;*/
+}
+
+.Table_N td {
+	border-top: 1px solid #B5CADD;
+	border-left: 1px solid #B5CADD;
+	border-right: 1px solid #B5CADD;
+	border-bottom: 1px solid #B5CADD;
+	BORDER-COLLAPSE: COLLAPSE;
+	padding: 3px 6px 3px 6px;
+	line-height: 12pt;
+}
+
+
+.Table_H1 {
+	font-family: "宋体", "Arial";
+	font-size: 12px;
+	color: #b20;
+	background-color: #EFF4FB
+}
+
+.hr {
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: dotted;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #B5CADD;
+	border-right-color: #B5CADD;
+	border-bottom-color: #B5CADD;
+	border-left-color: #B5CADD;
+}
+
+.line_left {
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-left-color: #000000;
+}
+
+.area_title {
+	padding: 5px 2px 10px 0;
+	font-size: 13px;
+	font-weight: bold;
+	color: #004d99;
+}
+
+.float_left {
+	float: left;
+}
+
+#Header {
+	background: url(../images5/blue/header_bg.gif) left top repeat-x;
+}
+
+.clear {
+	clear: both;
+}
+
+#Footer {
+	color: #aaa;
+	border-top: #eee;
+	padding: 5px 2px 20px 2px;
+	text-align: left;
+	border-top: 1px solid;
+}
+
+#Footer img {
+	vertical-align: -6px;
+}
+
+.Area_title2 {
+	border-top: 2px solid #69c;
+	margin: -5px 0 -10px 0;
+}
+
+.table_of_table td {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+}
+
+/* 用于校验和字段输入格式提示 */
+/* 2014年11月4日 李真河注释掉，原因是与jquery.validate冲突。
+* //TODO 去掉之后检查影响项，主要是user,role,
+* merchant_user,agent_user 
+* 
+.required{
+	color:red;
+}
+*/
+.tip{
+	display: none;
+	color:red;
+}
+
+/* 用于高级查询字体的显示  */
+SPAN SUB {
+	font-family: "宋体", "Arial";
+	font-size: 12px;
+	color: #3C3A3B;
+	background-color: #F1F5F8;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+/* 用于显示表格中分段显示的小标题样式 */
+.section_title{	
+	background-color:#B5CADD;
+}
+.field_required{
+	color:#F00;
+}

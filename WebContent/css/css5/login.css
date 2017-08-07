@@ -1,0 +1,106 @@
+body{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ul,li{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.pad5{
+	padding:5px;
+}
+.f-left{
+	float:left;
+}
+.border-g{
+	border:1px #B1B5C5 solid;
+}
+.gray{
+	color:#303030;
+}
+.herder{
+	background:url("../Images/login/bg-top.jpg") 0 0 repeat-x;
+	height:131px;
+}
+.herder .head{
+	background:url("../Images/login/box-top.jpg") 50% 0 no-repeat;
+	width:960px;
+	height:131px;
+	margin:0 auto;
+}
+.content{
+	width:900px;
+	height:480px;
+	margin:0 auto;
+	position:relative;
+}
+
+.login-bg{
+	background:url("../Images/login/box-1.jpg") 0 0 no-repeat;
+	height:260px;
+	position:relative;
+}
+.hotline{
+	position:absolute;
+	left:20px;
+	bottom:12px;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+}
+.login-box{
+	background:url("../Images/login/login-box.jpg") 0 0 no-repeat;
+	width:315px;
+	height:364px;
+	position:absolute;
+	right:50px;
+	top:15px;
+}
+.login-item{
+	width:240px;
+	margin:80px auto 0;
+}
+.login-item ul{
+	overflow:hidden;
+	margin:8px 0;
+}
+.login-item ul li{
+	height:30px;
+	line-height:30px;
+}
+.checkinimg{
+	background:url("../Images/login/login.jpg") 0 0 repeat-x;
+	width:61px;
+	height:27px;
+	border:0;
+	cursor:pointer;
+}
+.checkresetimg{
+	background:url("../Images/login/reset.jpg") 0 0 repeat-x;
+	width:61px;
+	height:27px;
+	border:0;
+	cursor:pointer;
+	margin-left:10px;
+}
+.error-msg{
+	border:1px #FF0000 solid;
+	background:#FFCACA;
+	color:#F00;
+	padding:5px;
+	width:240px;
+	margin:20px auto 0;
+}
+.footer{
+	background:url("../Images/login/box-bottom.jpg") 0 0 repeat-x;
+	height:78px;
+	text-align:center;
+	line-height:20px;
+}
+.footer p{
+	margin:10px 0;
+}

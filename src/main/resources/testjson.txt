@@ -1,0 +1,14 @@
+{
+  "tranNo": 123422223424234324,
+  "merchId": 111301000000000,
+  "channelId": "2",
+  "accNo": "6217860100000372608",
+  "accName":"郑和进",
+  "accType":"00",
+  "bankName": "中国银行",
+  "certType":"01",
+  "certNo":"341281198403050497",
+  "comments": "测试",
+  "banlance": 100.00,
+  "secretKey":"0v0g0gse0svenf16ensvwwsg1q00gnn0"
+}
